@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <gictitc.components.customcomponents.MyTimeView
+    <!--<gictitc.components.customcomponents.MyTimeView
         android:layout_width="100dp"
         android:layout_height="200dp"
         android:layout_marginEnd="8dp"
@@ -17,6 +17,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:setColor="true"
-        app:title="Hello from My" />
-
+        app:title="Hello from My" />-->
+    <gictitc.components.customcomponents.StoryView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:contentText="This is a story content"
+        app:buttonLeft="Hello"
+        app:buttonRight="World"/>
 </android.support.constraint.ConstraintLayout>
